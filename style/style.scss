@@ -25,6 +25,11 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  .elementContainer {
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    background-color: $whiteColor;
+  }
 }
 
 @media (max-width: 375px) {
@@ -35,8 +40,7 @@ body {
 
     .elementContainer {
       max-width: 100%;
-      background-color: $whiteColor;
-      padding: 1rem 1rem 2.5rem 1rem;
+      padding: 1rem 1rem 3rem 1rem;
       border-radius: 25px;
       margin: 2rem;
       display: flex;
@@ -94,8 +98,7 @@ body {
 
     .elementContainer {
       max-width: 100%;
-      background-color: $whiteColor;
-      padding: 1rem 1rem 2.5rem 1rem;
+      padding: 1rem 1rem 3rem 1rem;
       border-radius: 25px;
       margin: 2rem;
       display: flex;
